@@ -1,0 +1,7 @@
+//　babelで変換させる時の詳細設定と、それを実現するプラグインの設置。
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
