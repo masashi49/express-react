@@ -1,10 +1,16 @@
 import React from "react";
 import ReactDom from "react-dom";
+import Header from "./component/header";
+import "./styles.scss";
+
 const Index = () => {
   return (
-    <div>
-      .htmlファイルをどう処理するかをWebpackに指示するために、
-      html-webpack-pluginをinstallする。
+    <div className="content">
+      <Header title="作成中" />
+      <main>
+        .htmlファイルをどう処理するかをWebpackに指示するために、
+        html-webpack-pluginをinstallする。
+      </main>
     </div>
   );
 };

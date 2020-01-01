@@ -24,6 +24,10 @@ module.exports = {
         use: {
           loader: "babel-loader"
         }
+      },
+      {
+        test: /\.s?css$/, //scssかcssを見つける
+        use: ["style-loader", "css-loader", "sass-loader"] // バンドルする前にこの処理をする。
       }
     ]
   }

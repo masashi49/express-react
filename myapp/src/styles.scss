@@ -1,0 +1,10 @@
+body {
+  background: #cdcdcd;
+}
+
+.header {
+  background: #ddd;
+  &-title {
+    font-size: 16px;
+  }
+}
