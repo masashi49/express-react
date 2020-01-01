@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
-import Header from "./component/header";
+import Header from "./components/Header/index.jsx";
 import "./styles.scss";
 
 const Index = () => {
