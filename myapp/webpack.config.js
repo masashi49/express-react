@@ -28,6 +28,11 @@ module.exports = {
       {
         test: /\.s?css$/, //scssかcssを見つける
         use: ["style-loader", "css-loader", "sass-loader"] // バンドルする前にこの処理をする。
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/, //画像を読み込めるようにする
+        loader: "file-loader",
+        options: { name: "/static/[name].[ext]" }
       }
     ]
   }
